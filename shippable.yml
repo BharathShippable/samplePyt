@@ -8,8 +8,8 @@ python:
   - 2.7
 
 env:
-  global:
-    - hoo=plk
+  - hoo=plk
+  - test=env
 
 build:
   ci:
