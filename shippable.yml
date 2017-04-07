@@ -15,4 +15,4 @@ build:
   ci:
     - python --version
     - echo "$abc"
-    - echo "$test"
+    - echo "$test" 
