@@ -5,4 +5,4 @@ language: none
 build:
   ci:
     - printenv
-    - echo hi
+    - echo hii
