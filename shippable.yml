@@ -2,7 +2,9 @@
 # Language setting
 language: none
 
+runtime:
+  nodepool: ci-builder
+
 build:
   ci:
-    - printenv
-    - echo hiii
+    - git log
