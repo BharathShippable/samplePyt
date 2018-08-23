@@ -5,7 +5,7 @@ sem = threading.Semaphore()
 def fun1():
     for num in range(1,20):
         sem.acquire()
-        print(1)
+        print(2)
         sem.release()
         time.sleep(0.25)
 
