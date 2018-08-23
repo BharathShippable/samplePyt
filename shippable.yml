@@ -12,4 +12,5 @@ gitConfig:
 build:
   ci:
     - git log
-    - git config -l
+    - git config -l | grep "http.sslVerify=false"
+    - git config -l | grep "core.editor=emacs"
