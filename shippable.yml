@@ -2,7 +2,10 @@ language: none
 
 runtime:
   nodePool: ci-builder
-depth:
+
+depth: 2
+
+gitConfig:
   - http.sslVerify false
   - core.editor emacs
 
