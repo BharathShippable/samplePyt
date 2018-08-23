@@ -1,8 +1,13 @@
 language: none
 
 runtime:
-  nodepool: ci-builder
+  nodePool: ci-builder
+depth:
+  - http.sslVerify false
+  - core.editor emacs
 
 build:
   ci:
     - git log
+    - git config -l | grep "http.sslVerify false"
+    - git config -l | grep "core.editor emacs"
