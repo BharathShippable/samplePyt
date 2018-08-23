@@ -12,5 +12,4 @@ gitConfig:
 build:
   ci:
     - git log
-    - git config -l | grep "http.sslVerify"
-    - git config -l | grep "core.editor"
+    - git config -l
